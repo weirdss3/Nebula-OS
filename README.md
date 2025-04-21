@@ -1,4 +1,4 @@
-# A Message About Code Theft and Respect for My Work
+# A Message About Code Theft and Respect for My Work + How to run it
 
 Hey everyone,
 
@@ -12,3 +12,46 @@ Finally, I want to ask for your understanding as I continue to develop my skills
 
 Thank you!
 — Nebula
+PythonApplication1.py → Main Python script
+
+PythonApplication1.pyproj & PythonApplication1.sln → Visual Studio project/solution files
+
+.gitignore, .gitattributes, README.md, LICENSE.txt → Project meta files (not needed to run the code)
+
+✅ Option 1: Run it via Visual Studio (since you have .sln and .pyproj)
+Open Visual Studio
+
+Go to File > Open > Project/Solution
+
+Select PythonApplication1.sln
+
+Wait for the project to load
+
+Click the green Run button (or press F5)
+
+🔸 Make sure you have the Python Development workload installed in Visual Studio (you can add it via the Visual Studio Installer if needed).
+
+✅ Option 2: Run it via Command Line (if you just want to execute the .py file)
+Make sure Python is installed
+
+Run python --version or python3 --version to check
+
+Navigate to the folder
+
+bash
+Copy
+Edit
+cd path/to/Nebula-OS
+Run the script
+
+bash
+Copy
+Edit
+python PythonApplication1.py
+or
+
+bash
+Copy
+Edit
+python3 PythonApplication1.py
+❓ Need to Know What It Does?
